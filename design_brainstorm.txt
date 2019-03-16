@@ -1,5 +1,16 @@
-target: Tick game
-    [-]: create game object
-    [-]: create tick method and assign to game object
-    [-]: import threading
-    []: set thread to tick on interval
+[-] target: Tick game
+        [-]: create game object
+        [-]: create tick method and assign to game object
+        [X]: import threading
+        [-]: set thread to tick on interval
+
+[-] target: create new thing each tick
+
+[-]  target: keep track of things in game
+
+[-]  target: Create atom each tick
+
+
+
+[]  target: easily log objects
+        [-]: build property logging function

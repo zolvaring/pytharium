@@ -14,17 +14,13 @@ class Game():
     self.name = Game.name
     self.things = []
 
-  #@staticmethod
   def tick(self):
     print('Ticking game.')
-    #thing = Thing()
     atom = Atom()
-    #print(f'Appending new thing (<{thing}>) to game things (<{self.things}>).')
     print(f'Appending new thing (<{ppretty(atom)}>) to game things (<{ppretty(self.things)}>).')
     self.things.append(atom)
 
 
-  #@staticmethod
   def loop(self):
     while True:
       tick_time = time.time()

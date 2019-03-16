@@ -1,0 +1,5 @@
+target: Tick game
+    [-]: create game object
+    [-]: create tick method and assign to game object
+    [-]: import threading
+    []: set thread to tick on interval
